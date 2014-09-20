@@ -48,27 +48,78 @@ describe Hand do
     expect(hand.size).to eq(5)
   end
 
+  describe '#organize' do
+    it 'organizes the hand' do
+
+    end
+  end
+
+  describe '#<=>' do
+    before(:each) do
+
+
+    it 'returns 1 if other hand is worse'
+
+    it 'returns 0 if other hand is identical'
+
+    it 'returns -1 if other hand is better'
+  end
+
   describe '#one_pair?' do
     it 'returns true if hand has one pair'
 
     it 'returns false if no pairs'
   end
 
-  describe '#two_pair?'
+  describe '#two_pair?' do
+    it 'returns true if hand has two pair'
 
-  describe '#three_of_a_kind?'
+    it 'returns false otherwise'
+  end
 
-  describe '#straight?'
+  describe '#three_of_a_kind?' do
+    it 'returns true if hand has three-of-a-kind'
 
-  describe '#flush?'
+    it 'returns false otherwise'
+  end
 
-  describe '#full_house?'
+  describe '#straight?' do
+    it 'returns true if hand has straight'
 
-  describe '#four_of_a_kind?'
+    it 'returns false otherwise'
+  end
 
-  describe '#straight_flush?'
+  describe '#flush?' do
+    it 'returns true if hand has flush'
 
-  describe '#royal_flush?'
+    it 'returns false otherwise'
+  end
+
+  describe '#full_house?' do
+    it 'returns true if hand has full house'
+
+    it 'returns false otherwise'
+  end
+
+  describe '#four_of_a_kind?' do
+    it 'returns true if hand has a four-of-a-kind'
+
+    it 'returns false otherwise'
+  end
+
+  describe '#straight_flush?' do
+    it 'returns true if hand has straight flush'
+
+    it 'returns false otherwise'
+  end
+
+  describe '#royal_flush?' do
+    it 'returns true if hand has royal flush'
+
+    it 'returns false otherwise'
+  end
+
+  describe '#evalaute'
 
 
 
